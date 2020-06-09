@@ -9,7 +9,7 @@ w='\033[37;1m'
 y='\033[33;1m'
 
 clear
-figlet '\033[31;1m'"tools"
+figlet "tools"
 sleep 1
 echo $y"+++++++++++++++++++++++++++++++++++++"
 echo $y"author:MrGardenia"
