@@ -9,7 +9,7 @@ w='\033[37;1m'
 y='\033[33;1m'
 
 clear
-figlet "tools"
+figlet $r"tools"
 sleep 1
 echo $y"+++++++++++++++++++++++++++++++++++++"
 echo $y"author:MrGardenia"
@@ -24,7 +24,7 @@ echo $b"[3] DDOS"
 echo $b"[4] HACK CCTV"
 echo $b"[5] IPTRACKER"
 echo $b"[6] install bahan"
-read -p $r"[?] pilih : " pil
+read -p "[?] pilih : " pil
 #Batas gan
 if [ $pil = 1 ]
 then
